@@ -1,0 +1,4 @@
+Here are the commands commands that are necessary to run the program.
+
+./masm<rfib.asm>rfib.obj
+./mic1 prom.dat rfib.obj 0 2048<input.txt
