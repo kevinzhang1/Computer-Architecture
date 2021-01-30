@@ -1,0 +1,95 @@
+Script started on 2020-11-12 22:45:44-0500
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./masm<a4_mult_test.asm>a4.obj[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake
+gcc -c -g mic1symasm_nand_rshift.c
+[01m[Kmic1symasm_nand_rshift.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmic1symasm_nand_rshift.c:404:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreturn[m[K’ with no value, in function returning non-void
+  [01;35m[Kreturn[m[K;
+  [01;35m[K^~~~~~[m[K
+[01m[Kmic1symasm_nand_rshift.c:86:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ int  [01;36m[Kmain[m[K(int argc, char *argv[])
+      [01;36m[K^~~~[m[K
+[01m[Kmic1symasm_nand_rshift.c:[m[K In function ‘[01m[Kdump_table[m[K’:
+[01m[Kmic1symasm_nand_rshift.c:419:2:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kwait[m[K’; did you mean ‘[01m[Kmain[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  [01;35m[Kwait[m[K(NULL);
+  [01;35m[K^~~~[m[K
+  [32m[Kmain[m[K
+flex mic1symasm_nand_rshift.ll
+gcc -c -g lex.yy.c
+gcc -o masm mic1symasm_nand_rshift.o lex.yy.o
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./masm<a4_mult_test.asm>a4.obj
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./mcc microcode_nand_rshift.mc>prom.dat
+Microcode Compiler - Version 1.0 - Richard Boccuzzi
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./mic1 prom.dat a4.obj 0 2000
+
+Read in 112 micro instructions
+Read in 36 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000011111010000  base 10:    2000
+
+^C
+kzhang1@cs3:~/computerarchitecture/assignment4$ make clean
+rm masm *.o lex.yy.c prom.dat a4.obj
+kzhang1@cs3:~/computerarchitecture/assignment4$ make clean./mic1 prom.dat a4.obj 0 2000cc microcode_nand_rshift.mc>prom.dat[9Pasm<a4_mult_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.objr_test.asm>a4.objs_test.asm>a4.objh_test.asm>a4.obji_test.asm>a4.objf_test.asm>a4.objt_test.asm>a4.obj[C[C[C[C[C[C[C[C[C[C[C[C
+bash: ./masm: No such file or directory
+kzhang1@cs3:~/computerarchitecture/assignment4$ m[Kmake
+gcc -c -g mic1symasm_nand_rshift.c
+[01m[Kmic1symasm_nand_rshift.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmic1symasm_nand_rshift.c:404:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreturn[m[K’ with no value, in function returning non-void
+  [01;35m[Kreturn[m[K;
+  [01;35m[K^~~~~~[m[K
+[01m[Kmic1symasm_nand_rshift.c:86:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ int  [01;36m[Kmain[m[K(int argc, char *argv[])
+      [01;36m[K^~~~[m[K
+[01m[Kmic1symasm_nand_rshift.c:[m[K In function ‘[01m[Kdump_table[m[K’:
+[01m[Kmic1symasm_nand_rshift.c:419:2:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kwait[m[K’; did you mean ‘[01m[Kmain[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  [01;35m[Kwait[m[K(NULL);
+  [01;35m[K^~~~[m[K
+  [32m[Kmain[m[K
+flex mic1symasm_nand_rshift.ll
+gcc -c -g lex.yy.c
+gcc -o masm mic1symasm_nand_rshift.o lex.yy.o
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./masm<a4_m[Krshift_test.asm>a4.obj
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./masm<a4_rshift_test.asm>a4.objmake[K./masm<a4_rshift_test.asm>a4.objmake clean[K./mic1 prom.dat a4.obj 0 2000cc microcode_nand_rshift.mc>prom.dat
+Microcode Compiler - Version 1.0 - Richard Boccuzzi
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./mcc microcode_nand_rshift.mc>prom.dat[7Pasm<a4_rshift_test.asm>a4.objmake[K./masm<a4_rshift_test.asm>a4.objmake clean[K./mic1 prom.dat a4.obj 0 2000[K[K[K[K2000
+
+Read in 112 micro instructions
+Read in 25 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000011111010000  base 10:    2000
+
+^C
+kzhang1@cs3:~/computerarchitecture/assignment4$ make clean
+rm masm *.o lex.yy.c prom.dat a4.obj
+kzhang1@cs3:~/computerarchitecture/assignment4$ make
+gcc -c -g mic1symasm_nand_rshift.c
+[01m[Kmic1symasm_nand_rshift.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmic1symasm_nand_rshift.c:404:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kreturn[m[K’ with no value, in function returning non-void
+  [01;35m[Kreturn[m[K;
+  [01;35m[K^~~~~~[m[K
+[01m[Kmic1symasm_nand_rshift.c:86:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ int  [01;36m[Kmain[m[K(int argc, char *argv[])
+      [01;36m[K^~~~[m[K
+[01m[Kmic1symasm_nand_rshift.c:[m[K In function ‘[01m[Kdump_table[m[K’:
+[01m[Kmic1symasm_nand_rshift.c:419:2:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kwait[m[K’; did you mean ‘[01m[Kmain[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  [01;35m[Kwait[m[K(NULL);
+  [01;35m[K^~~~[m[K
+  [32m[Kmain[m[K
+flex mic1symasm_nand_rshift.ll
+gcc -c -g lex.yy.c
+gcc -o masm mic1symasm_nand_rshift.o lex.yy.o
+kzhang1@cs3:~/computerarchitecture/assignment4$ make clean./mic1 prom.dat a4.obj 0 2000cc microcode_nand_rshift.mc>prom.dat[C[C[1P_rshift.mc>prom.dat[1P_rshift.mc>prom.dat[1P_rshift.mc>prom.dat[1P_rshift.mc>prom.dat[3Pasm<a4_rshift_test.asm>a4.objmake[K./masm<a4_rshift_test.asm>a4.obj[C[C[1P_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.obj[1P_test.asm>a4.objd_test.asm>a4.obji_test.asm>a4.objv_test.asm>a4.obj
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./masm<a4_div_test.asm>a4.objmake[K clean./mic1 prom.dat a4.obj 0 2000cc microcode__rshift.mc>prom.dat
+Microcode Compiler - Version 1.0 - Richard Boccuzzi
+kzhang1@cs3:~/computerarchitecture/assignment4$ ./mcc microcode__rshift.mc>prom.dat[6Pasm<a4_div_test.asm>a4.objmake[K clean./mic1 prom.dat a4.obj 0 2000
+
+Read in 7 micro instructions
+Read in 52 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000011111010000  base 10:    2000
+
+^C
+kzhang1@cs3:~/computerarchitecture/assignment4$ exit
+exit
+
+Script done on 2020-11-12 22:50:47-0500
