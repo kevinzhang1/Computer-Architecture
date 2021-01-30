@@ -1,0 +1,10 @@
+Name: Kevin Zhang
+Email Address: Kevin_Zhang@student.uml.edu
+
+The commands.txt file contains the commands needed to compile and run the code. The output.txt file shows the resulting output from the project. The output.txt file may show some stuff that's not legible. Those are warning messages from compiling the programs.
+
+Overall I was able to finish the whole project pretty much. It was a very difficult and complicated assignment, and I was doing it at a time where it was difficult to motivate myself to do school work. Fortunately, the professor has already given the source code for most of the project so I just needed to add on to it to get the program needed.
+
+This assignment is pretty much the exact same thing as assignment 5 except that the program is supposed to compile and run in a slightly different way. The main purpose of the program is to print out a prompt that asks you to put an integer two times, and that it is supposed to print out the sum of these two integers. If the sum is too large, it is supposed to print out an error message saying that it has encountered an overflow error.
+
+This program inherits the same issues from assignment 5. Overall, the main idea of the program should be working where it outputs the sum of two inputs. However, that doesn't mean that I can say with 100% certainty that this program is working completely. While I was working on it, the program kept getting into weird glitches for seemingly harmless stuff like changing the content of the strings. Therefore, I couldn't get the strings to match exactly what the professor wants in the assignment. Additionally, if the program overflows, rather than terminating the program it prompts the user to ask for numbers again which is not exactly what the assignment says we're supposed to do. For the linking part, I couldn't successfully create a sb.asm file and transfer the sb function to it. Therefore, I had to leave the sb function in the a6.asm. I would say that the program is working with 93% success mainly because I couldn't fix some small errors and couldn't fulfill a few requirements. 

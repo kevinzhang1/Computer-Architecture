@@ -1,0 +1,198 @@
+Script started on 2020-12-01 23:38:32-0500
+kzhang1@cs5:~/computerarchitecture/assignment6$ make
+gcc -o linker linker.c
+[01m[Klinker.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Klinker.c:34:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint *[m[K’, but argument 3 has type ‘[01m[Kshort unsigned int *[m[K’ [[01;35m[K-Wformat=[m[K]
+     while(fscanf(p2, "[01;35m[K%d[m[K %s", [32m[K&pc[m[K, instruction) != EOF){
+                       [01;35m[K~^[m[K      [32m[K~~~[m[K
+                       [32m[K%hd[m[K
+./masm_mrd -o<a6.asm>a6.obj
+./masm_mrd -o<readint.asm>readint.obj
+./masm_mrd -o<writeint.asm>writeint.obj
+./masm_mrd -o<writestr.asm>writestr.obj
+./masm_mrd -o<addints.asm>addints.obj
+./masm_mrd -o<xbsywt.asm>xbsywt.obj
+./masm_mrd -o<rbsywt.asm>rbsywt.obj
+./masm_mrd -o<data.asm>data.obj
+./linker a6.obj readint.obj writeint.obj writestr.obj addints.obj xbsywt.obj rbsywt.obj data.obj>a6.exe
+./mic1 prom_mrd.dat a6.exe 0 2048
+
+Read in 152 micro instructions
+Read in 182 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+235
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+0
+SUM OF NUMBERS IS:
+235
+
+ProgramCounter : 0000000000111011  base 10:      59
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1119623
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs5:~/computerarchitecture/assignment6$ make
+gcc -o linker linker.c
+[01m[Klinker.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Klinker.c:34:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint *[m[K’, but argument 3 has type ‘[01m[Kshort unsigned int *[m[K’ [[01;35m[K-Wformat=[m[K]
+     while(fscanf(p2, "[01;35m[K%d[m[K %s", [32m[K&pc[m[K, instruction) != EOF){
+                       [01;35m[K~^[m[K      [32m[K~~~[m[K
+                       [32m[K%hd[m[K
+./masm_mrd -o<a6.asm>a6.obj
+./masm_mrd -o<readint.asm>readint.obj
+./masm_mrd -o<writeint.asm>writeint.obj
+./masm_mrd -o<writestr.asm>writestr.obj
+./masm_mrd -o<addints.asm>addints.obj
+./masm_mrd -o<xbsywt.asm>xbsywt.obj
+./masm_mrd -o<rbsywt.asm>rbsywt.obj
+./masm_mrd -o<data.asm>data.obj
+./linker a6.obj readint.obj writeint.obj writestr.obj addints.obj xbsywt.obj rbsywt.obj data.obj>a6.exe
+./mic1 prom_mrd.dat a6.exe 0 2048
+
+Read in 152 micro instructions
+Read in 182 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+16341
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+957
+SUM OF NUMBERS IS:
+17298
+
+ProgramCounter : 0000000000111011  base 10:      59
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1707115
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs5:~/computerarchitecture/assignment6$ make
+gcc -o linker linker.c
+[01m[Klinker.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Klinker.c:34:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint *[m[K’, but argument 3 has type ‘[01m[Kshort unsigned int *[m[K’ [[01;35m[K-Wformat=[m[K]
+     while(fscanf(p2, "[01;35m[K%d[m[K %s", [32m[K&pc[m[K, instruction) != EOF){
+                       [01;35m[K~^[m[K      [32m[K~~~[m[K
+                       [32m[K%hd[m[K
+./masm_mrd -o<a6.asm>a6.obj
+./masm_mrd -o<readint.asm>readint.obj
+./masm_mrd -o<writeint.asm>writeint.obj
+./masm_mrd -o<writestr.asm>writestr.obj
+./masm_mrd -o<addints.asm>addints.obj
+./masm_mrd -o<xbsywt.asm>xbsywt.obj
+./masm_mrd -o<rbsywt.asm>rbsywt.obj
+./masm_mrd -o<data.asm>data.obj
+./linker a6.obj readint.obj writeint.obj writestr.obj addints.obj xbsywt.obj rbsywt.obj data.obj>a6.exe
+./mic1 prom_mrd.dat a6.exe 0 2048
+
+Read in 152 micro instructions
+Read in 182 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+23786
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+12400
+OVERFLOW, NO SUM POSSIBLE
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+12
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+23
+SUM OF NUMBERS IS:
+35
+
+ProgramCounter : 0000000000111011  base 10:      59
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000001  base 10:    2049
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000011  base 10:       3
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 4718021
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs5:~/computerarchitecture/assignment6$ make
+gcc -o linker linker.c
+[01m[Klinker.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Klinker.c:34:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint *[m[K’, but argument 3 has type ‘[01m[Kshort unsigned int *[m[K’ [[01;35m[K-Wformat=[m[K]
+     while(fscanf(p2, "[01;35m[K%d[m[K %s", [32m[K&pc[m[K, instruction) != EOF){
+                       [01;35m[K~^[m[K      [32m[K~~~[m[K
+                       [32m[K%hd[m[K
+./masm_mrd -o<a6.asm>a6.obj
+./masm_mrd -o<readint.asm>readint.obj
+./masm_mrd -o<writeint.asm>writeint.obj
+./masm_mrd -o<writestr.asm>writestr.obj
+./masm_mrd -o<addints.asm>addints.obj
+./masm_mrd -o<xbsywt.asm>xbsywt.obj
+./masm_mrd -o<rbsywt.asm>rbsywt.obj
+./masm_mrd -o<data.asm>data.obj
+./linker a6.obj readint.obj writeint.obj writestr.obj addints.obj xbsywt.obj rbsywt.obj data.obj>a6.exe
+./mic1 prom_mrd.dat a6.exe 0 2048
+
+Read in 152 micro instructions
+Read in 182 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+1
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+1343
+SUM OF NUMBERS IS:
+1344
+
+ProgramCounter : 0000000000111011  base 10:      59
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2390296
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs5:~/computerarchitecture/assignment6$ exit
+exit
+
+Script done on 2020-12-01 23:39:44-0500
