@@ -1,1 +1,5 @@
-
+all:
+	./masm_mrd<a5.asm>rfib.obj
+	./mic1 prom_mrd.dat rfib.obj 0 2048
+clean:
+	rm *.obj 

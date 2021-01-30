@@ -1,0 +1,135 @@
+Script started on 2020-11-24 22:10:14-0500
+kzhang1@cs4:~/computerarchitecture/assignment5$ ./masm_mrd<a5.asm>rfib.obj
+kzhang1@cs4:~/computerarchitecture/assignment5$ ./mic1 prom_mrd.dat rfib.obj 0 2048
+
+Read in 152 micro instructions
+Read in 179 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+235
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+0
+SUM OF NUMBERS IS:
+235
+
+ProgramCounter : 0000000001110101  base 10:     117
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 989327
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs4:~/computerarchitecture/assignment5$ ./mic1 prom_mrd.dat rfib.obj 0 2048
+
+Read in 152 micro instructions
+Read in 179 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+16341
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+957
+SUM OF NUMBERS IS:
+17298
+
+ProgramCounter : 0000000001110101  base 10:     117
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2429020
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs4:~/computerarchitecture/assignment5$ ./mic1 prom_mrd.dat rfib.obj 0 2048
+
+Read in 152 micro instructions
+Read in 179 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+23786
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+12400
+OVERFLOW, NO SUM POSSIBLE
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+12
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+23
+SUM OF NUMBERS IS:
+35
+
+ProgramCounter : 0000000001110101  base 10:     117
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000001  base 10:    2049
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000011  base 10:       3
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 3479746
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs4:~/computerarchitecture/assignment5$ ./mic1 prom_mrd.dat rfib.obj 0 2048
+
+Read in 152 micro instructions
+Read in 179 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+1
+ PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767: 
+1343
+SUM OF NUMBERS IS:
+1344
+
+ProgramCounter : 0000000001110101  base 10:     117
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1362844
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+kzhang1@cs4:~/computerarchitecture/assignment5$ exit
+exit
+
+Script done on 2020-11-24 22:11:37-0500
